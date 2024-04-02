@@ -5,8 +5,6 @@
 #SBATCH -t 23:50:00
 #SBATCH -o ./%N.%x.out
 #SBATCH -e ./%N.%x.err
-#SBATCH --mail-type=BEGIN,END
-#SBATCH --mail-user=shuyu.dong@inria.fr
 
 # Déplacement sur le répertoire de travail
 
